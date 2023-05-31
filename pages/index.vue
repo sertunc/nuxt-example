@@ -1,3 +1,5 @@
 <template>
     <div>home index page</div>
-</template>>
+    <Alert />
+    <Profile />
+</template>
