@@ -9,6 +9,11 @@
 </template>
 
 <script setup>
+//composables
 const { sayHello } = useUtils();
 sayHello();
+
+//plugin
+const { $hello } = useNuxtApp()
+$hello("world from plugins")
 </script>
