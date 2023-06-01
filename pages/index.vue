@@ -6,6 +6,7 @@
     <Alert />
     <Profile />
     <IconsBell />
+    <Counter />
 </template>
 
 <script setup>
